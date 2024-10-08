@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="268dp"
+                android:layout_height="96dp"
+                android:contentDescription="@string/kulitayam_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.727"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.009"
+                app:srcCompat="@drawable/rectangle" />
+
+            <TextView
+                android:id="@+id/editTextText2"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Kulit Ayam Crispy"
+                android:textColor="#FFFFFF"
+                android:textSize="27sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.819"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageButton
+                android:id="@+id/ImageBackButton"
+                android:layout_width="76dp"
+                android:layout_height="69dp"
+                android:contentDescription="@string/kulitayam_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.592"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/imageButtonKulitAyamContent"
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:contentDescription="@string/kulitayam_desc"
+            app:srcCompat="@drawable/kulitayam" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:contentDescription="@string/kulitayam_desc"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/img_4" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="376dp"
+            app:srcCompat="@drawable/img_5" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
